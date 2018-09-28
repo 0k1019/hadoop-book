@@ -1,5 +1,6 @@
 // cc MaxTemperatureReducer Reducer for maximum temperature example
 // vv MaxTemperatureReducer
+package newapi;
 import java.io.IOException;
 
 import org.apache.hadoop.io.IntWritable;

@@ -1,5 +1,6 @@
 // cc MaxTemperatureMapper Mapper for maximum temperature example
 // vv MaxTemperatureMapper
+package newapi;
 import java.io.IOException;
 
 import org.apache.hadoop.io.IntWritable;

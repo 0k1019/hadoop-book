@@ -1,5 +1,6 @@
 // cc MaxTemperature Application to find the maximum temperature in the weather dataset
 // vv MaxTemperature
+package newapi;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
