@@ -1,0 +1,5 @@
+sudo hadoop jar $HADOOP_HOME/hadoop-streaming-*.jar \
+  -input ~/hadoop-book/input/ncdc/sample.txt \
+  -output ~/hadoop-book/output \
+  -mapper ~/hadoop-book/ch02-mr-intro/src/main/ruby/max_temperature_map.rb \
+  -reducer ~/hadoop-book/ch02-mr-intro/src/main/ruby/max_temperature_reduce.rb
